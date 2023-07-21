@@ -1,0 +1,23 @@
+:root{
+  --background-light:#fff;
+  --background-dark: #222;
+  --logo-color:#FED136;
+  --text-color: #777777;
+    --name-color:#BBB;
+    --hover-color:#deb729;
+}
+
+
+body{
+    width: 1000px;
+    padding: 0px 29px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*header*/
+
+/*main*/
+/*
+.list-title{
+
+}
+*/
