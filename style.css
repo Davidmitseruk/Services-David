@@ -12,8 +12,33 @@ body{
     width: 1000px;
     padding: 0px 29px;
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
 /*header*/
+.logo{
+  font-family: 'Bilbo Swash Caps', sans-serif;
+  color: var(--logo-color);
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  line-height: 41px;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+}
+.header-link{
+  color: var(--logo-color);
+  font-size: 14px;
+  font-weight: 700;
+}
+.header{
+    margin-bottom: 92px;
+    margin-top: 44px;
+}
+
+
+
+
 
 /*main*/
 /*
@@ -21,3 +46,55 @@ body{
 
 }
 */
+
+.section-form{
+  background-color: var(--background-dark);
+  padding-top: 92px;
+  padding-bottom: 114px;
+}
+.form-title{
+  color: var(--background-light);
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: normal;
+  text-align: center;
+ 
+}
+.button{
+  color: var(--background-light);
+  background-color: var(--logo-color);
+  padding: 20px 33px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+.button:hover{
+  background-color: #deb729;
+}
+.infomation{
+  margin-bottom: 119px;
+}
+.infomation-title{
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 88px;
+}
+.info-item{
+  width: 274px ;
+  text-align: center;
+}
+.list-title{
+    font-size: 18px;
+    color: var(--background-dark);
+    line-height: 75px;
+}
+.list-text{
+ font-size: 14px;
+ color: var(--text-color);
+ font-family: 'Roboto', sans-serif;
+}
