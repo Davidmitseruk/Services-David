@@ -34,6 +34,13 @@ body{
 .header{
     margin-bottom: 92px;
     margin-top: 44px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header-lise{
+  display: flex;
+  justify-content: space-between;
 }
 
 
